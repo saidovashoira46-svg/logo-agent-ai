@@ -1,0 +1,17 @@
+AI LOGO AGENT — TO‘LIQ LOYIHA (PATCH kiritilgan)
+
+1) ZIP ni Desktop ga chiqaring. Ichida Logo_Agent_AI_Toliq papkasi bo‘lsin.
+2) VS Code > File > Open Folder orqali Logo_Agent_AI_Toliq ni oching.
+3) Terminalda ketma-ket: 
+
+py -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+Copy-Item .env.example .env
+notepad .env
+
+.env da BOT_TOKEN, GEMINI_API_KEY ni o‘z haqiqiy kalitlaringizga almashtiring va saqlang.
+Keyin botni boshlang:
+.\.venv\Scripts\python.exe bot.py
+
+Telegram da /start va /testai ni tekshiring.
+ZIP ichida maxfiy .env yoki virtual muhit yo‘q. Shriftlar tizimdan olinadi; xohlasangiz o‘zingizning oldingi fonts/ papkangizni qo‘shishingiz mumkin.
